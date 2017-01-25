@@ -7,5 +7,5 @@ I am Jacob Lee, a current junior at Washington University in St. Louis studying 
 Jacob Lee
 
 #Projects
-- Swift.ly and Consumer Travel Habits
-- 
+1. Swift.ly and Consumer Travel Habits
+2. 
