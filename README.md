@@ -8,4 +8,3 @@ Jacob Lee
 
 #Projects
 1. Swift.ly and Consumer Travel Habits
-2. 
