@@ -64,8 +64,9 @@ A bit worse than our previous model, but that's to be expected. The model is ris
 We used a package to classify words into a various, and used the frequency of the emotion occurring as predictors.
 
 The emotions include anger, anticipation, disgust, fear, joy, sadness, surprise, and trust.
-``````````````````````````  
+
 Confusion matrix:
+``````````````````````````  
           Reference
 Prediction   0   1
          0 211  91
