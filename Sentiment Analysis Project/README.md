@@ -13,6 +13,7 @@ This model takes the **difference** (quite simply) between the share of positive
 An image of the decision tree is attached above as well.
 
 The resulting confusion matrix (for test data) was as such:
+''''''''''''''''''''
           Reference
 Prediction   0   1
          0 126  36
@@ -21,7 +22,8 @@ Prediction   0   1
     Accuracy : 0.6301          
     95% CI : (0.5929, 0.6661)
     No Information Rate : 0.5             
-    P-Value [Acc > NIR] : 3.888e-12   
+    P-Value [Acc > NIR] : 3.888e-12
+''''''''''''''''''''
     
 ## Model 2: Logistic Regression w/ Share of Neg/Pos Words as Predictors
 This model takes the ratio of negative to positive words (share negative, share positive) as independent variables, and if the predicted ratio passes a threshold (0.5, in our case), then it is positive.
