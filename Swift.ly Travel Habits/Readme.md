@@ -13,6 +13,6 @@ We used ggplot2 to visualize the data of the data as bar graphs, histograms, pie
 
 The project was a great way to get our feet wet in data analysis. The spreadsheets were fun to work with, and the trends that we revealed gave some interesting options and insights to the company. In addition to analyzing the data, our group discussed  how our results could be used in the future and what additional data could be provided.
 
-##Class Paper
+## Class Paper
 https://docs.google.com/document/d/1MDTTP8oRLgIRa0N3GOu-LqzrUiPvHML5V83aUZtAPjw/edit
 You can view our full research paper at the link above. It includes analyses of the graphs we created, alongside a discussion of potential problems with the data.
