@@ -1,6 +1,6 @@
-#Swift.ly Analysis Project
+# Swift.ly Analysis Project
 
-##Introduction
+## Introduction
 What external factors can influence public transportation decisions?
 
 This was a group project given out in the Olin School of Business. Our Professor was a data scientist at a transportation startup, and brought with him actual datasets from the company. The startup, called Swift.ly, specializes in utilizing information like Uber prices and travel time to help users make informed transportation decisions.
