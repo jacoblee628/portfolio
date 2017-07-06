@@ -35,6 +35,6 @@ Just to prove that I am human beyond these lists, I like jazz (as funky as it co
 Thanks,
 Jacob Lee
 
-#Projects
+# Projects
 1. Swift.ly and Consumer Travel Habits
 2. Sentiment Analysis on Ford Reviews
