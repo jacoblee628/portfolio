@@ -4,7 +4,7 @@ Hello,
 
 I am Jacob Lee, a current senior at Washington University in St. Louis majoring in Marketing and Chinese, with a minor in Computer Science. I am an aspiring data scientist. My skills so far include:
 
-* R (intermediate)
+* R (advanced)
   * ggplot2
   * sqldf
   * wordcloud
@@ -23,6 +23,7 @@ In terms of statistical concepts, I am familiar with:
   * Avoiding pitfalls (collinearity, heteroskedasticity, outliers & leverage, etc)
 * Decision trees
 * Sentiment analysis
+* Optimization (more general math, but hey, why not?)
 
 I also have extensive experience with these programs:
 
@@ -30,7 +31,7 @@ I also have extensive experience with these programs:
 * Final Cut Pro (advanced)
 * Microsoft Excel (begrudgingly *very* advanced)
 
-Just to prove that I am human beyond these lists, I like jazz (as funky as it comes), I have perfect pitch, and I can speak in a passable Scottish accent.
+And just to prove that I am human beyond these lists, I like jazz (as funky as it comes), I have perfect pitch, and I can speak in a passable Scottish accent.
 
 Thanks,
 Jacob Lee
