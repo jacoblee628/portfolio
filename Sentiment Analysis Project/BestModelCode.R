@@ -252,7 +252,7 @@ head(Ford.train.PNE)
 # Creating confusion matrix
 confusionMatrix(data = Ford.train.PNE$LR_SpecificWords_PredictedPolarity,reference = Ford.train.PNE$class, positive = "1")
 
-## BELOW IS FOR THE TRAINING DATASET
+## BELOW IS FOR THE TESTING DATASET
 
 # Binding the two arrays together
 regressors_LR_SpecificWords_test = as.matrix(cbind(1,Ford.scores.test))
