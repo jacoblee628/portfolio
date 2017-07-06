@@ -2,10 +2,39 @@
 
 Hello,
 
-I am Jacob Lee, a current junior at Washington University in St. Louis studying Marketing and Chinese. In addition to taking courses on data analysis, computer science, and mathematics, I am independently studying coding in R and SQL. If you wish to contact me, I am reachable at jacoblee628@gmail.com. I check my email regularly, so please do not hesitate to reach out.
+I am Jacob Lee, a current senior at Washington University in St. Louis majoring in Marketing and Chinese, with a minor in Computer Science. I am an aspiring data scientist. My skills so far include:
+
+* R (intermediate)
+  * ggplot2
+  * sqldf
+  * wordcloud
+  * tidyr
+* SQL (intermediate)
+* Java (intermediate)
+* VBA (advanced)
+* Python (basic)
+
+In terms of statistical concepts, I am familiar with:
+
+* Regression
+  * Simple & multiple
+  * Time series
+  * Logistic
+  * Avoiding pitfalls (collinearity, heteroskedasticity, outliers & leverage, etc)
+* Decision trees
+* Sentiment analysis
+
+I also have extensive experience with these programs:
+
+* Adobe Photoshop (advanced)
+* Final Cut Pro (advanced)
+* Microsoft Excel (begrudgingly *very* advanced)
+
+Just to prove that I am human beyond these lists, I like jazz (as funky as it comes), I have perfect pitch, and I can speak in a passable Scottish accent.
 
 Thanks,
 Jacob Lee
 
 #Projects
 1. Swift.ly and Consumer Travel Habits
+2. Sentiment Analysis on Ford Reviews
