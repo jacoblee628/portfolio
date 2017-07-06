@@ -15,4 +15,5 @@ The project was a great way to get our feet wet in data analysis. The spreadshee
 
 ## Class Paper
 https://docs.google.com/document/d/1MDTTP8oRLgIRa0N3GOu-LqzrUiPvHML5V83aUZtAPjw/edit
+
 You can view our full research paper at the link above. It includes analyses of the graphs we created, alongside a discussion of potential problems with the data.
