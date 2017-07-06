@@ -82,4 +82,4 @@ So it turns out that our second model was the best. It seems most logical; if wo
 
 [Research](http://www.mecs-press.org/ijeme/ijeme-v7-n1/v7n1-3.html) has shown that humans are around 70% accurate in classifying online reviews, so these models are around as good as a human, in a fraction of the time.
 
-Welcome to the future, where robots can understand how angry you are on Amazon.
+**Welcome to the future, where robots can understand how angry you are on Amazon.**
