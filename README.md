@@ -6,10 +6,6 @@ I am Jacob Lee, an aspiring data scientist. I am a current senior at Washington 
 
 My skills so far include:
 * R (advanced)
-  * ggplot2
-  * sqldf
-  * stringr
-  * tidyr
 * SQL (intermediate)
 * Java (intermediate)
 * VBA (advanced)
@@ -34,11 +30,10 @@ I also have extensive experience with these programs:
 
 And just to prove that I am human beyond these lists, I like jazz (as funky as it comes), I'm in an a cappella group, and I can speak in a passable Scottish accent.
 
-And yes, a cappella people actually do have riff-offs!
-
 Thanks,
 Jacob Lee
 
 # Projects
 1. Swift.ly and Consumer Travel Habits
 2. Sentiment Analysis on Ford Reviews
+3. Titanic (Kaggle) Analysis (Upcoming!)
