@@ -20,7 +20,7 @@ In terms of statistical concepts, I am familiar with:
   * Avoiding pitfalls (collinearity, heteroskedasticity, outliers & leverage, etc)
 * Decision trees
 * Sentiment analysis
-* Optimization
+* Imputation
 
 I also have extensive experience with these programs:
 
