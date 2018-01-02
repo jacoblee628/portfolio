@@ -1,11 +1,14 @@
 # Ford Review Sentiment Analysis Project
 
+## Conclusion
+Given only the text of several hundred actual reviews, we were able to predict with **~69% accuracy** if they were **positive or negative reviews**.
+
 ## Introduction
-Given a corpus of several hundred reviews, can we use sentiment analysis to classify reviews as either positive or negative?
+The ability to quickly categorize thousands of reviews is important to every review site. It is a surprisingly difficult challenge, especially due to things like sarcasm, euphemisms, slang, and figures of speech.
 
-For this project, we were provided with a list of actual online reviews of Ford vehicles, and using RStudio and its packages we were to create several predictive models and report their effectiveness using confusion matrices. **Data was split into both training and test datasets.**
+**Humans are around 70% accurate**, but labor is expensive and takes a long time. Our model was just as good as humans, and only uses a fraction of the time.
 
-To this end, we cleaned the data, visualized it (in a word cloud, image file above), classified them (using a dictionary in the syuzhet package) and created 4 different models, explained below.
+We cleaned the text data, visualized it (in a word cloud, image file above), classified each word in every review (using a dictionary in the syuzhet package) and created 4 different models, explained below.
 
 ### Model 1: Simple Difference
 This model takes the **difference** (quite simply) between the share of positive and negative words. If the resulting number meets a threshold (determined by a decision tree that we generated), it is classified as either positive or negative.
@@ -78,8 +81,6 @@ Prediction   0   1
     P-Value [Acc > NIR] : < 2.2e-16       
 ``````````````````````````                                            
 ## Conclusion
-So it turns out that our second model was the best. It seems most logical; if words are generally more negative in a review, the review is more likely to be negative. The other models are either too simple or take too many risks.
+Our second model was the best. If words are generally more negative in a review, the review is more likely to be negative. The other models are either too simple or take too many risks.
 
 [Research](http://www.mecs-press.org/ijeme/ijeme-v7-n1/v7n1-3.html) has shown that humans are around 70% accurate in classifying online reviews, so these models are around as good as a human, in a fraction of the time.
-
-**Welcome to the future, where robots can understand how angry you are on Amazon.**
