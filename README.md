@@ -1,5 +1,13 @@
 # portfolio
 
+# Projects
+1. Swift.ly and Consumer Travel Habits
+2. Sentiment Analysis on Ford Reviews
+3. Titanic (Kaggle) Analysis (Upcoming!)
+
+
+# Introduction
+
 Hello,
 
 I am Jacob Lee, an aspiring data scientist. I am a current senior at Washington University in St. Louis majoring in Marketing and Chinese, with a minor in Computer Science.
@@ -32,8 +40,3 @@ And just to prove that I am human beyond these lists, I like jazz (as funky as i
 
 Thanks,
 Jacob Lee
-
-# Projects
-1. Swift.ly and Consumer Travel Habits
-2. Sentiment Analysis on Ford Reviews
-3. Titanic (Kaggle) Analysis (Upcoming!)
