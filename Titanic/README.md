@@ -1,14 +1,12 @@
 # Titanic Kaggle Challenge
 
 ## Results
-**79.9% Accuracy** using a (Ensemble Random Forest Tree)
+Given data about the passengers aboard the Titanic, I was able to predict their survival
+with **~80% accuracy**.
+
+Model: Ensemble Random Forest Tree
 
 **Top 20% of competitors in challenge**
-
-Given data about the passengers aboard the Titanic, I was able to predict their survival
-with ~80% accuracy.
-
-This model is 30% better than random guessing (50% accuracy).
 
 ## Other Models
 * Model 1: **76.6% Accuracy** (Logistic Regression) (Replacing NAs with Average of the column)
