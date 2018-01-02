@@ -1,26 +1,27 @@
 # portfolio
 
-# Projects
-1. Swift.ly and Consumer Travel Habits
+## Projects
+1. Titanic
+   - Predicted the survival rate of the passengers with **~80% accuracy**
 2. Sentiment Analysis on Ford Reviews
-3. Titanic (Kaggle) Analysis (Upcoming!)
+   - Categorized over 10,000 actual reviews on the Ford website as either **complementary or detracting**
+3. Swift.ly and Consumer Travel Habits
+   - Used over 20,000 points of data from commuters and **visualized their travel habits**
 
-
-# Introduction
+## Introduction
 
 Hello,
 
-I am Jacob Lee, an aspiring data scientist. I am a current senior at Washington University in St. Louis majoring in Marketing and Chinese, with a minor in Computer Science.
+I am Jacob Lee, an aspiring data scientist. I am a current senior at Washington University in St. Louis, majoring in Marketing and Chinese, with a minor in Computer Science.
 
-My skills so far include:
+Programming languages:
 * R (advanced)
 * SQL (intermediate)
-* Java (intermediate)
+* Java (advanced)
 * VBA (advanced)
 * Python (basic)
 
-In terms of statistical concepts, I am familiar with:
-
+Statistical concepts:
 * Regression
   * Simple & multiple
   * Time series
@@ -28,7 +29,7 @@ In terms of statistical concepts, I am familiar with:
   * Avoiding pitfalls (collinearity, heteroskedasticity, outliers & leverage, etc)
 * Decision trees
 * Sentiment analysis
-* Imputation
+* Cleaning/tidying data
 
 I also have extensive experience with these programs:
 
