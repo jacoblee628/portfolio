@@ -6,13 +6,13 @@
 2. Sentiment Analysis on Ford Reviews
    - Categorized over **10,000 text-only reviews** just as accurately as a human could, **but instantaneously**.
 3. Swift.ly and Consumer Travel Habits
-   - Visualized actual commuter data from San Francisco
+   - **Visualized actual commuter data** from San Francisco
 
 ## Introduction
 
 Hello,
 
-I am Jacob Lee, an aspiring data scientist. I am a current senior at Washington University in St. Louis, majoring in Marketing and Chinese, with a minor in Computer Science.
+I am **Jacob Lee, an aspiring data scientist**. I am a current senior at Washington University in St. Louis, majoring in Marketing and Chinese, with a minor in Computer Science.
 
 Programming languages:
 * R (advanced)
