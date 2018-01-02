@@ -4,9 +4,9 @@
 1. Titanic
    - Predicted the survival rate of the passengers with **~80% accuracy**
 2. Sentiment Analysis on Ford Reviews
-   - Categorized over 10,000 actual reviews on the Ford website as either **complementary or detracting**
+   - Categorized over **10,000 text-only reviews** just as accurately as a human could, **but instantaneously**.
 3. Swift.ly and Consumer Travel Habits
-   - Used over 20,000 points of data from commuters and **visualized their travel habits**
+   - Visualized actual commuter data from San Francisco
 
 ## Introduction
 
