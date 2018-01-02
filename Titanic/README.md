@@ -17,4 +17,4 @@ This model is 30% better than random guessing (50% accuracy).
 ## Learning Outcomes
 * Missing data and how to handle it
   * How missing data affects logistic regression vs trees
-* Improved workflow
+* Tested out the workflow I designed (see main folder for workflow)
