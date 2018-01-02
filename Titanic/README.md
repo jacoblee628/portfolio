@@ -1,7 +1,7 @@
 # Titanic Kaggle Challenge
 
-## Findings
-Best Model: **79.9% Accuracy** (Ensemble Random Forest Tree)
+## Results
+**79.9% Accuracy** using a (Ensemble Random Forest Tree)
 
 **Top 20% of competitors in challenge**
 
