@@ -17,7 +17,7 @@ Model: Ensemble Random Forest Tree
 ## Learning Outcomes
 - Missing data and how to handle it
   - How missing data affects logistic regression vs trees
-- Tested out the workflow I designed (see main folder for workflow)
+- Tested out the workflow I designed
 - Packages
   - Amelia (Handling and visualizing missing data)
   - rpart (Decision Trees)
