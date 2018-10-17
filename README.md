@@ -7,8 +7,8 @@
    - A chain of two jobs that takes in the [Netflix Prize training data](https://www.kaggle.com/netflix-inc/netflix-prize-data/data) and outputs a top list of size N, based on the sum of movie review scores.
 3. Sentiment Analysis on Ford Reviews
    - Created several models that predict the sentiment (positive or negative) of reviews. 
-4. Swift.ly and Consumer Travel Habits
-   - Final project on visualization and analysis of San Fransicoan commuter habits.
+4. Titanic Dataset Analysis
+   - Developed several predictive models based on the famous Titanic dataset.
    
 ## Introduction
 
