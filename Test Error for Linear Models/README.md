@@ -4,6 +4,8 @@ Given target (true distribution) function of ![f(x)=y^2](http://mathurl.com/yarf
 
 We decide to use a linear learning algorithms of form ![hyp](http://mathurl.com/yap2towy.png). Find test performance (![eout](http://mathurl.com/yacz3c8s.png)).
 
+In addition to the math I wrote below, I also wrote an experimental program that supported the theoretical results I found below. Code included.
+
 ## Solution:
 From the famous bias-variance decomposition, we know that expected test error can be calculated as follows:
 
