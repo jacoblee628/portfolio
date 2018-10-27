@@ -9,19 +9,18 @@ From the famous bias-variance decomposition, we know that expected test error ca
 
 <img src="https://static.wixstatic.com/media/84a55f_6990fa8904824feabef3d1c75f33f4a4~mv2.png/v1/fill/w_410,h_59,al_c,lg_1,q_80/84a55f_6990fa8904824feabef3d1c75f33f4a4~mv2.webp" alt="exout" width="220" height="30"/>
 
-<img src="https://static.wixstatic.com/media/84a55f_988ce48d945c414a80e6193a8b5d34da~mv2.png/v1/fill/w_360,h_60,al_c,lg_1,q_80/84a55f_988ce48d945c414a80e6193a8b5d34da~mv2.webp" alt="1" width="200" height="30"/>
-
 Some tidbits to help: the average function is ![gbar](http://mathurl.com/ycr5kgay.png), which is equal to 0, because of x's uniform distribution. This means that the slope (a) and intercept (b) of the average line are both 0.
 
 Piecing everything together:
-<img src="https://static.wixstatic.com/media/84a55f_6374a6f909c743f1abb7bfac3587337a~mv2.png/v1/fill/w_330,h_238,al_c,lg_1,q_80/84a55f_6374a6f909c743f1abb7bfac3587337a~mv2.webp" alt="2" width="200" height="400"/>
+<img src="https://static.wixstatic.com/media/84a55f_6374a6f909c743f1abb7bfac3587337a~mv2.png/v1/fill/w_330,h_238,al_c,lg_1,q_80/84a55f_6374a6f909c743f1abb7bfac3587337a~mv2.webp" alt="2" width="200" height="200"/>
 
 
 ### Bias
-<img src="https://static.wixstatic.com/media/84a55f_6374a6f909c743f1abb7bfac3587337a~mv2.png/v1/fill/w_330,h_238,al_c,lg_1,q_80/84a55f_6374a6f909c743f1abb7bfac3587337a~mv2.webp" alt="3" width="500" height="400"/>
+
+<img src="https://static.wixstatic.com/media/84a55f_988ce48d945c414a80e6193a8b5d34da~mv2.png/v1/fill/w_360,h_60,al_c,lg_1,q_80/84a55f_988ce48d945c414a80e6193a8b5d34da~mv2.webp" alt="1" width="200" height="30"/>
 
 We can integrate across x's range to find a numerical value for the bias.
-<img src="https://static.wixstatic.com/media/84a55f_9b453377c3654452ad09d92a6c0630cb~mv2.png/v1/fill/w_288,h_270,al_c,lg_1,q_80/84a55f_9b453377c3654452ad09d92a6c0630cb~mv2.webp" alt="4" width="300" height="500"/>
+<img src="https://static.wixstatic.com/media/84a55f_9b453377c3654452ad09d92a6c0630cb~mv2.png/v1/fill/w_288,h_270,al_c,lg_1,q_80/84a55f_9b453377c3654452ad09d92a6c0630cb~mv2.webp" alt="4" width="200" height="200"/>
 
 
 Nice!
