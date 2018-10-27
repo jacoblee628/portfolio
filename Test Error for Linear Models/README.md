@@ -12,20 +12,22 @@ From the famous bias-variance decomposition, we know that expected test error ca
 Some tidbits to help: the average function is ![gbar](http://mathurl.com/ycr5kgay.png), which is equal to 0, because of x's uniform distribution. This means that the slope (a) and intercept (b) of the average line are both 0.
 
 Piecing everything together:
-<img src="https://static.wixstatic.com/media/84a55f_9d40f110353947538624a7e7706f70e9~mv2.png/v1/fill/w_417,h_216,al_c,lg_1,q_80/84a55f_9d40f110353947538624a7e7706f70e9~mv2.webp" alt="2" width="240" height="160"/>
+<img src="https://static.wixstatic.com/media/84a55f_9d40f110353947538624a7e7706f70e9~mv2.png/v1/fill/w_417,h_216,al_c,lg_1,q_80/84a55f_9d40f110353947538624a7e7706f70e9~mv2.webp" alt="2" width="240" height="140"/>
 
 ### Bias
 
-<img src="https://static.wixstatic.com/media/84a55f_988ce48d945c414a80e6193a8b5d34da~mv2.png/v1/fill/w_360,h_60,al_c,lg_1,q_80/84a55f_988ce48d945c414a80e6193a8b5d34da~mv2.webp" alt="1" width="200" height="30"/>
+<img src="https://static.wixstatic.com/media/84a55f_988ce48d945c414a80e6193a8b5d34da~mv2.png/v1/fill/w_360,h_60,al_c,lg_1,q_80/84a55f_988ce48d945c414a80e6193a8b5d34da~mv2.webp" alt="1" width="180" height="40"/>
 
 We can integrate across x's range to find a numerical value for the bias.
-<img src="https://static.wixstatic.com/media/84a55f_9b453377c3654452ad09d92a6c0630cb~mv2.png/v1/fill/w_288,h_270,al_c,lg_1,q_80/84a55f_9b453377c3654452ad09d92a6c0630cb~mv2.webp" alt="4" width="200" height="200"/>
+
+<img src="https://static.wixstatic.com/media/84a55f_9b453377c3654452ad09d92a6c0630cb~mv2.png/v1/fill/w_288,h_270,al_c,lg_1,q_80/84a55f_9b453377c3654452ad09d92a6c0630cb~mv2.webp" alt="4" width="200" height="160"/>
 
 
 Nice!
 
 ### Variance
 Variance is a little trickier.
+
 <img src="https://static.wixstatic.com/media/84a55f_9bb18b627d014b7b96e32a7fab98b9c0~mv2.png/v1/fill/w_332,h_118,al_c,q_80,usm_0.66_1.00_0.01/84a55f_9bb18b627d014b7b96e32a7fab98b9c0~mv2.webp" alt="6" width="300" height="200"/>
 
 
