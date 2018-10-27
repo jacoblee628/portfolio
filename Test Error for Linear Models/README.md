@@ -34,11 +34,11 @@ Variance is a little trickier.
 
 Given this information, we can integrate similarly to how we got bias, but we have to do two integrations because of the nested expected values.
 
-<img src="https://static.wixstatic.com/media/84a55f_61260a886c3e4eccbc0ae8d5d0bb7694~mv2.png/v1/fill/w_768,h_522,al_c,q_85,usm_0.66_1.00_0.01/84a55f_61260a886c3e4eccbc0ae8d5d0bb7694~mv2.webp" alt="7" width="400" height="480"/>
+<img src="https://static.wixstatic.com/media/84a55f_61260a886c3e4eccbc0ae8d5d0bb7694~mv2.png/v1/fill/w_768,h_522,al_c,q_85,usm_0.66_1.00_0.01/84a55f_61260a886c3e4eccbc0ae8d5d0bb7694~mv2.webp" alt="7" width="430" height="480"/>
 
 Second integration:
 
-<img src="https://static.wixstatic.com/media/84a55f_8c52ee6cc22c4372adc700ac3e68ac03~mv2.png/v1/fill/w_274,h_252,al_c,q_80,usm_0.66_1.00_0.01/84a55f_8c52ee6cc22c4372adc700ac3e68ac03~mv2.webp" alt="8" width="220" height="230"/>
+<img src="https://static.wixstatic.com/media/84a55f_8c52ee6cc22c4372adc700ac3e68ac03~mv2.png/v1/fill/w_274,h_252,al_c,q_80,usm_0.66_1.00_0.01/84a55f_8c52ee6cc22c4372adc700ac3e68ac03~mv2.webp" alt="8" width="200" height="210"/>
 
 This yields our expected value for ![eout](http://mathurl.com/yacz3c8s.png). 
 
