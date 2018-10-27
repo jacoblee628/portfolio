@@ -12,7 +12,7 @@ From the famous bias-variance decomposition, we know that expected test error ca
 Some tidbits to help: the average function is ![gbar](http://mathurl.com/ycr5kgay.png), which is equal to 0, because of x's uniform distribution. This means that the slope (a) and intercept (b) of the average line are both 0.
 
 Piecing everything together:
-<img src="https://static.wixstatic.com/media/84a55f_9d40f110353947538624a7e7706f70e9~mv2.png/v1/fill/w_417,h_216,al_c,lg_1,q_80/84a55f_9d40f110353947538624a7e7706f70e9~mv2.webp" alt="2" width="200" height="180"/>
+<img src="https://static.wixstatic.com/media/84a55f_9d40f110353947538624a7e7706f70e9~mv2.png/v1/fill/w_417,h_216,al_c,lg_1,q_80/84a55f_9d40f110353947538624a7e7706f70e9~mv2.webp" alt="2" width="240" height="160"/>
 
 ### Bias
 
