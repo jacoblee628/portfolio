@@ -13,7 +13,7 @@ Some tidbits to help: the average function is ![gbar](http://mathurl.com/ycr5kga
 
 Piecing everything together:
 
-<img src="https://static.wixstatic.com/media/84a55f_9d40f110353947538624a7e7706f70e9~mv2.png/v1/fill/w_417,h_216,al_c,lg_1,q_80/84a55f_9d40f110353947538624a7e7706f70e9~mv2.webp" alt="2" width="240" height="140"/>
+<img src="https://static.wixstatic.com/media/84a55f_9d40f110353947538624a7e7706f70e9~mv2.png/v1/fill/w_417,h_216,al_c,lg_1,q_80/84a55f_9d40f110353947538624a7e7706f70e9~mv2.webp" alt="2" width="220" height="110"/>
 
 ### Bias
 
@@ -29,16 +29,16 @@ Nice!
 ### Variance
 Variance is a little trickier.
 
-<img src="https://static.wixstatic.com/media/84a55f_9bb18b627d014b7b96e32a7fab98b9c0~mv2.png/v1/fill/w_332,h_118,al_c,q_80,usm_0.66_1.00_0.01/84a55f_9bb18b627d014b7b96e32a7fab98b9c0~mv2.webp" alt="6" width="250" height="120"/>
+<img src="https://static.wixstatic.com/media/84a55f_9bb18b627d014b7b96e32a7fab98b9c0~mv2.png/v1/fill/w_332,h_118,al_c,q_80,usm_0.66_1.00_0.01/84a55f_9bb18b627d014b7b96e32a7fab98b9c0~mv2.webp" alt="6" width="240" height="110"/>
 
 
 Given this information, we can integrate similarly to how we got bias, but we have to do two integrations because of the nested expected values.
 
-<img src="https://static.wixstatic.com/media/84a55f_61260a886c3e4eccbc0ae8d5d0bb7694~mv2.png/v1/fill/w_768,h_522,al_c,q_85,usm_0.66_1.00_0.01/84a55f_61260a886c3e4eccbc0ae8d5d0bb7694~mv2.webp" alt="7" width="360" height="500"/>
+<img src="https://static.wixstatic.com/media/84a55f_61260a886c3e4eccbc0ae8d5d0bb7694~mv2.png/v1/fill/w_768,h_522,al_c,q_85,usm_0.66_1.00_0.01/84a55f_61260a886c3e4eccbc0ae8d5d0bb7694~mv2.webp" alt="7" width="400" height="480"/>
 
 Second integration:
 
-<img src="https://static.wixstatic.com/media/84a55f_8c52ee6cc22c4372adc700ac3e68ac03~mv2.png/v1/fill/w_274,h_252,al_c,q_80,usm_0.66_1.00_0.01/84a55f_8c52ee6cc22c4372adc700ac3e68ac03~mv2.webp" alt="8" width="240" height="250"/>
+<img src="https://static.wixstatic.com/media/84a55f_8c52ee6cc22c4372adc700ac3e68ac03~mv2.png/v1/fill/w_274,h_252,al_c,q_80,usm_0.66_1.00_0.01/84a55f_8c52ee6cc22c4372adc700ac3e68ac03~mv2.webp" alt="8" width="220" height="230"/>
 
 This yields our expected value for ![eout](http://mathurl.com/yacz3c8s.png). 
 
