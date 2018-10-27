@@ -18,7 +18,7 @@ I am **Jacob Lee, an aspiring data analyst**. I am a current senior at Washingto
 4. Logistic Regression (via Gradient Descent)
    - Coded the logistic regression algorithm from scratch
    
-## Introduction
+## Skills
 
 Programming languages:
 * R (advanced)
