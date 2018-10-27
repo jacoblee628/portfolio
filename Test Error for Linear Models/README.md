@@ -17,7 +17,7 @@ Second, because we know the true target function (this doesn't happen in the rea
 
 We can integrate the above equation with respect to x over the range of the distribution.
 
-<img src="https://static.wixstatic.com/media/84a55f_2e789d9bce414827a46a05d2ae8c9957~mv2.png/v1/fill/w_718,h_504,al_c,q_85,usm_0.66_1.00_0.01/84a55f_2e789d9bce414827a46a05d2ae8c9957~mv2.webp" alt="int" width="300" height="400"/>)
+<img src="https://static.wixstatic.com/media/84a55f_2e789d9bce414827a46a05d2ae8c9957~mv2.png/v1/fill/w_718,h_504,al_c,q_85,usm_0.66_1.00_0.01/84a55f_2e789d9bce414827a46a05d2ae8c9957~mv2.webp" alt="int" width="800" height="400"/>)
 
 Take the average of the final equation for all experiments to get the overall ![eout](http://mathurl.com/yacz3c8s.png).
 
