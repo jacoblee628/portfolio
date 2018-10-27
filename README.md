@@ -5,6 +5,7 @@ Hello,
 I am **Jacob Lee, an aspiring data analyst**. I am a current senior at Washington University in St. Louis, majoring in Marketing and Chinese, with a minor in Computer Science.
 
 [Resume](https://docs.wixstatic.com/ugd/84a55f_eaa1f884d9d6434fa13fccb9446eb05b.pdf)
+
 [LinkedIn](https://www.linkedin.com/in/jacob-lee-402644b4/).
 
 ## Projects
