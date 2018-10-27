@@ -1,30 +1,33 @@
 # portfolio
 
-## Projects
-1. Perceptron Learning Algorithm (PLA)
-   - Implementation of the PLA machine learning algorithm. Generates linearly separable data and applies the algorithm, classifying the data in finite time.
-2. Top N List MapReduce implementation
-   - A chain of two jobs that takes in the [Netflix Prize training data](https://www.kaggle.com/netflix-inc/netflix-prize-data/data) and outputs a top list of size N, based on the sum of movie review scores.
-3. Sentiment Analysis on Ford Reviews
-   - Created several models that predict the sentiment (positive or negative) of reviews. 
-4. Titanic Dataset Analysis
-   - Developed several predictive models based on the famous Titanic dataset.
-   
-## Introduction
-
 Hello,
 
 I am **Jacob Lee, an aspiring data analyst**. I am a current senior at Washington University in St. Louis, majoring in Marketing and Chinese, with a minor in Computer Science.
 
+[Resume](https://docs.wixstatic.com/ugd/84a55f_eaa1f884d9d6434fa13fccb9446eb05b.pdf)
+[LinkedIn](https://www.linkedin.com/in/jacob-lee-402644b4/).
+
+## Projects
+1. Perceptron Learning Algorithm (PLA)
+   - Implementation of the PLA machine learning algorithm. Generates linearly separable data and applies the algorithm, classifying the data in finite time.
+2. Top N List MapReduce Java implementation
+   - A chain of two jobs that takes in the [Netflix Prize training data](https://www.kaggle.com/netflix-inc/netflix-prize-data/data) and outputs a top list of size N, based on the sum of movie review scores.
+3. Sentiment Analysis on Ford Reviews
+   - Created several models that predict the sentiment (positive or negative) of reviews. 
+4. Logistic Regression (via Gradient Descent)
+   - Coded the logistic regression algorithm from scratch
+   
+## Introduction
+
 Programming languages:
 * R (advanced)
 * MATLAB (advanced)
-* SQL (intermediate)
 * Java (advanced)
-* VBA (advanced)
 * Python (intermediate)
+* SQL (intermediate)
+* VBA (advanced)
 
-Technical experience:
+Other Technical Experience:
 * Hadoop (intermediate)
 * Adobe Photoshop (advanced)
 * Final Cut Pro (advanced)
