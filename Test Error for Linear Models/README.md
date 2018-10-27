@@ -44,6 +44,8 @@ Second integration:
 
 This yields our expected value for ![eout](http://mathurl.com/yacz3c8s.png). 
 
+## Conclusion
+
+The above numbers more or less line up with the experimental results (image in folder).
+
 We're only able to calculate this because we know the true target function. This doesn't happen in the real world, so this is more just math intuition building.
-
-
