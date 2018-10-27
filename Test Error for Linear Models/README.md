@@ -7,7 +7,7 @@ We decide to use a linear learning algorithms of form ![hyp](http://mathurl.com/
 ## Solution:
 Expected test error can be calculated as follows:
 
-![exeout](https://static.wixstatic.com/media/84a55f_6990fa8904824feabef3d1c75f33f4a4~mv2.png/v1/fill/w_410,h_59,al_c,lg_1,q_80/84a55f_6990fa8904824feabef3d1c75f33f4a4~mv2.webp)
+<img src="https://static.wixstatic.com/media/84a55f_6990fa8904824feabef3d1c75f33f4a4~mv2.png/v1/fill/w_410,h_59,al_c,lg_1,q_80/84a55f_6990fa8904824feabef3d1c75f33f4a4~mv2.webp" alt="exout" width="80" height="40"/>
 
 First, intuitively the average function is ![gbar](http://mathurl.com/ycr5kgay.png), which is equal to 0, because of x's uniform distribution.
 
