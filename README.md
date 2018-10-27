@@ -12,7 +12,7 @@ I am **Jacob Lee, an aspiring data analyst**. I am a current senior at Washingto
 1. Perceptron Learning Algorithm (PLA)
    - Implementation of the PLA machine learning algorithm. Generates linearly separable data and applies the algorithm, classifying the data in finite time.
 2. Top N List MapReduce Java implementation
-   - A chain of two jobs that takes in the [Netflix Prize training data](https://www.kaggle.com/netflix-inc/netflix-prize-data/data) and outputs a top list of size N, based on the sum of movie review scores.
+   - A chain of two Hadoop MapReduce jobs that takes in the [Netflix Prize training data](https://www.kaggle.com/netflix-inc/netflix-prize-data/data) and outputs a top list of size N, based on the sum of movie review scores.
 3. Sentiment Analysis on Ford Reviews
    - Created several models that predict the sentiment (positive or negative) of reviews. 
 4. Logistic Regression (via Gradient Descent)
