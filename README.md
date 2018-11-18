@@ -16,9 +16,9 @@ I am **Jacob Lee, an aspiring data analyst**. I am a current senior at Washingto
 3. Sentiment Analysis on Ford Reviews
    - Created several models that predict the sentiment (positive or negative) of reviews. 
 4. Logistic Regression (via Gradient Descent)
-   - Coded the logistic regression algorithm from scratch
+   - An implementation of logistic regression from scratch.
 5. Test Performance of Linear Learning Algorithms (math)
-   - Mathematically deriving out of sample error of a linear hypothesis set
+   - Mathematically deriving in-sample (training) and out-sample (test) error of a linear hypothesis set
    
 ## Skills
 
