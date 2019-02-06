@@ -19,6 +19,8 @@ I am **Jacob Lee, an aspiring data analyst**. I am a current senior at Washingto
    - An implementation of logistic regression from scratch.
 5. Test Performance of Linear Learning Algorithms (math)
    - Mathematically deriving in-sample (training) and out-sample (test) error of a linear hypothesis set
+6. AdaBoost Implementation
+   - Implemented AdaBoost from scratch and illustrated performance relative to number of weak learners.
    
 ## Skills
 
