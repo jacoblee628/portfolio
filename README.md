@@ -21,6 +21,8 @@ I am **Jacob Lee, an aspiring data analyst**. I am a current senior at Washingto
    - Mathematically deriving in-sample (training) and out-sample (test) error of a linear hypothesis set
 6. AdaBoost Implementation
    - Implemented AdaBoost from scratch and illustrated performance relative to number of weak learners.
+7. *k*-Means Clustering on Hadoop AWS Cluster - Final Project
+   - From Cloud Computing course; visualization clusters of death locations in the video game *Player Unknown's Battlegrounds*.
    
 ## Skills
 
