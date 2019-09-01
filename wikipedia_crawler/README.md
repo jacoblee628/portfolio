@@ -1,46 +1,16 @@
-# portfolio
+# Wikipedia Crawler
+[See this Medium article for a detailed writeup.](https://medium.com/@jacoblee628/all-roads-lead-to-philosophy-on-wikipedia-35d647b232b2)
 
-Hello,
-
-I am **Jacob Lee, an aspiring data analyst**. I am a current senior at Washington University in St. Louis, majoring in Marketing and Chinese, with a minor in Computer Science.
-
-[Resume](https://docs.wixstatic.com/ugd/84a55f_eaa1f884d9d6434fa13fccb9446eb05b.pdf)
-
-[LinkedIn](https://www.linkedin.com/in/jacob-lee-402644b4/)
-
-## Projects
-1. Perceptron Learning Algorithm (PLA)
-   - Implementation of the PLA machine learning algorithm. Generates linearly separable data and applies the algorithm, classifying the data in finite time.
-2. Top N List MapReduce Java implementation
-   - A chain of two Hadoop MapReduce jobs that takes in the [Netflix Prize training data](https://www.kaggle.com/netflix-inc/netflix-prize-data/data) and outputs a top list of size N, based on the sum of movie review scores.
-3. Sentiment Analysis on Ford Reviews
-   - Created several models that predict the sentiment (positive or negative) of reviews. 
-4. Logistic Regression (via Gradient Descent)
-   - An implementation of logistic regression from scratch.
-5. Test Performance of Linear Learning Algorithms (math)
-   - Mathematically deriving in-sample (training) and out-sample (test) error of a linear hypothesis set
-6. AdaBoost Implementation
-   - Implemented AdaBoost from scratch and illustrated performance relative to number of weak learners.
-7. *k*-Means Clustering on Hadoop AWS Cluster - Final Project
-   - From Cloud Computing course; visualization clusters of death locations in the video game *Player Unknown's Battlegrounds*.
+## Contents
+* wikipedia_traverser.py
+   - The Python class that is called to execute a traversal. It can output and input crawl data, so you can stop and resume progress.
+* crawl_output
+   - Data output by the traverser. Contains my last crawl on July 24, 2019.
+* Visualizations
+   - July 24 data visualized in [Gephi 0.9.2](https://gephi.org)
    
-## Skills
+## Disclaimer
+*Do not run this script on a large number of articles. While not banned by the API, it is strongly discouraged as it puts a heavy load on the servers.*
 
-Programming languages:
-* R (advanced)
-* MATLAB (advanced)
-* Java (advanced)
-* Python (intermediate)
-* SQL (intermediate)
-* VBA (advanced)
-
-Other Technical Experience:
-* Hadoop (intermediate)
-* Adobe Photoshop (advanced)
-* Final Cut Pro (advanced)
-* Microsoft Excel (begrudgingly *very* advanced)
-
-And just to prove that I am human beyond these lists, I like jazz (as funky as it comes), I'm in an a cappella group, and I can speak in a passable Scottish accent.
-
-Thanks,
-Jacob Lee
+## Contact
+jacoblee628@gmail.com
