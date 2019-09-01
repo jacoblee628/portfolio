@@ -13,9 +13,9 @@ My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon Un
 2. *k*-Means Clustering on Hadoop AWS Cluster - Final Project
    - From Cloud Computing course; visualization clusters of death locations in the video game *Player Unknown's Battlegrounds*.
 3. Wikipedia First Link Crawler
-   - A script that illustrates the [Wikipedia Philosophy phenomenon](https://medium.com/@jacoblee628/all-roads-lead-to-philosophy-on-wikipedia-35d647b232b2). Visualization included as well.
+   - A script that illustrates the [Wikipedia Philosophy phenomenon](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy). [Medium Article](https://medium.com/@jacoblee628/all-roads-lead-to-philosophy-on-wikipedia-35d647b232b2).
    
-![Wikipedia Crawler Output](https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png)
+<a href="url"><img src="(https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png" align="center" height="250"></a>
    
 ## Contact
 Email: jacoblee628@gmail.com
