@@ -15,7 +15,7 @@ My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon Un
 3. Wikipedia First Link Crawler
    - A script that illustrates the [Wikipedia Philosophy phenomenon](https://medium.com/@jacoblee628/all-roads-lead-to-philosophy-on-wikipedia-35d647b232b2). Visualization included as well.
    
-[Wikipedia Crawler Output](https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png)
+![Wikipedia Crawler Output](https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png)
    
 ## Contact
 Email: jacoblee628@gmail.com
