@@ -17,6 +17,3 @@ My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon Un
    
 ## Contact
 Email: jacoblee628@gmail.com
-
-Thanks,
-Jacob Lee
