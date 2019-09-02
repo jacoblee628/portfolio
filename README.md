@@ -16,4 +16,4 @@ My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon Un
 <img src="https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png" align="center" height="450">
    
 ## Contact
-Email: jacoblee628@gmail.com
+Email: sglee@andrew.cmu.edu
