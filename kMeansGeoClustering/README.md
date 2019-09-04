@@ -3,8 +3,8 @@ For this term project, our team analyzed the relationship between player positio
 
 ## Folder Contents
 * *pubg_data.py* and *preprocess_pubg.py* are for transforming and ingesting the raw dataset.
-* *kmeans_latlon.py* and *kmeans_pubg.py* are for running the actual k-means algorithm
-* *fx_latlon.py* and *fx_pubg.py* contain various functions needed for the k-means algorithm.
+* *kmeans_pubg.py* is for running the actual k-means algorithm
+* *fx_pubg.py* contains various functions needed for the k-means algorithm.
 * *visualizer.m* is a MATLAB script used for developing the visualization
 
 ## Methodology
@@ -14,3 +14,5 @@ We then implemented and ran the k-means clustering algorithm in Spark. We were p
 
 ## Findings
 We found that our clusters seemed to accurately capture loot hotspots, based on official game data. PUBG has every player starting off with no gear and scavenging for loot. As players will likely converge on areas with more loot, this insight seems to make sense.
+
+![results](visualization.png)
