@@ -1,16 +1,17 @@
-# kMeansGeoClustering
-Final Project on Big data application of k-means clustering to both synthetic data and real-world data.
+## Cloud Computing Final Project - k Means Clustering
+For this project, we analyzed the relationship between player position and probability of death in the video game *Player Unknown's Battlegrounds*.
 
-Topic: k-means for Geolocation Clustering in Spark
-Language: Python, PySpark, pandas, MATLAB\
+Language: Python, Spark, MATLAB\
 Course: CSE 427S Cloud Computing with Big Data Applications\
 Team Members:\
 Jacob Lee (Project Manager)\
 Frank Moon (Developer Local)\
 David Yang (Developer Cloud)\
 Nigel Kim (Key User)\
-Instructor: Marion Neumann Ph.D.\
-Institution: Washington University In St. Louis
 
 
-For this project, we implemented the  k-  means clustering algorithm using Apache Spark. The  k -means clustering algorithm is an unsupervised learning algorithm that groups  n  points of data into  k  different clusters, based on a similarity measure between each datapoint and the center of the nearest cluster. It then returns the location of each cluster center and classifications for each point in the dataset. We implemented the algorithm using Spark because it is optimized for distributed computing on volumes of data too large for a single computer to store and process. This proved to be crucial, as we eventually ran the algorithm on a very large dataset from the video game PlayerUnknown’s Battlegrounds (PUBG), using a cluster on Amazon Web Services (AWS).
+# Methodology
+We first transformed and loaded [this dataset from Kaggle.com](https://www.kaggle.com/skihikingkevin/pubg-match-deaths) onto Amazon Web Services servers. The dataset has 64 million rows and 12 columns. We ingested the data using Spark and Flume.
+
+We then implemented and ran the k-means clustering algorithm in Spark. We were pleased to find the map could be divided into several different regions. We then visualized the data using MATLAB.
+
