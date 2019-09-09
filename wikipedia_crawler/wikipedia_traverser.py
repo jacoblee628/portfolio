@@ -5,6 +5,7 @@ from trans import trans
 from unidecode import unidecode
 import networkx as nx
 
+
 class WikipediaTraverser:
     """
     Contains the network and results dictionaries, also run them through here
@@ -22,16 +23,16 @@ class WikipediaTraverser:
         self.HEADERS = {'User-Agent': 'Wiki First Link Network - jacoblee628@gmail.com'}
 
         # Keeps track of # of nodes that lead to philosophy
-        self.leadstophil = []
+        self.leads_to_phil = []
         self.graph = nx.DiGraph()
 
-    def save(self, network_path='wiki_network.csv', results_path='wiki_results.csv', phil_path='leadstophil.csv'):
+    def save(self, network_path='wiki_network.csv', results_path='wiki_results.csv', phil_path='leads_to_phil.csv'):
         """
         Saves everything to disk.
 
         :param network_path: File path for network
         :param results_path: File path for result
-        :param phil_path: File path for leadstophil list
+        :param phil_path: File path for leads_to_phil list
         """
         # Save network
         with open(network_path, 'w', newline='', encoding='utf-8') as csvfile:
@@ -52,12 +53,12 @@ class WikipediaTraverser:
             writer = csv.writer(csvfile)
             writer.writerow(['num_input', 'leads_to_phil', 'total_articles'])
             counter = 1
-            for pair in self.leadstophil:
+            for pair in self.leads_to_phil:
                 writer.writerow([counter, pair[0], pair[1]])
                 counter += 1
         print("Saved.")
 
-    def load(self, network_path='wiki_network.csv', results_path='wiki_results.csv', phil_path = 'leadstophil.csv'):
+    def load(self, network_path='wiki_network.csv', results_path='wiki_results.csv', phil_path='leads_to_phil.csv'):
         """
         Load network and results from disk
         """
@@ -87,38 +88,38 @@ class WikipediaTraverser:
             output = []
             for row in reader:
                 output.append((row[1], row[2]))
-        self.leadstophil = output
+        self.leads_to_phil = output
 
-    def run(self, input):
+    def run(self, input_request):
         """
-        Run the traversal through here. Saves results to the class dictionaries
-        :param input: String (for single article), list of strings (for specific articles),
+        Run the traversal through here. Saves outputs to the class dictionaries
+        :param input_request: String (for single article), list of strings (for specific articles),
                         or integer (for random).
         """
 
-        if isinstance(input, str):
-            print("Processing article {}".format(input))
-            input = input.replace("_", " ")
-            self.traverser(input)
+        if isinstance(input_request, str):
+            print("Processing article {}".format(input_request))
+            input_request = input_request.replace("_", " ")
+            self._traverser(input_request)
             print("Finished")
 
-        if isinstance(input, list):
-            num_loops = len(input)
+        if isinstance(input_request, list):
+            num_loops = len(input_request)
             print("Processing list")
             for i in range(num_loops):
-                i = i.replace("_", " ")
-                self.traverser(input[i])
-            print("Finished processing {} articles".format(len(input)))
+                i = input_request[i].replace("_", " ")
+                self._traverser(input_request[i])
+            print("Finished processing {} articles".format(len(input_request)))
 
-        if isinstance(input, int):
-            print("Processing {} random articles.".format(input))
+        if isinstance(input_request, int):
+            print("Processing {} random articles.".format(input_request))
 
             # Wikimedia limits request sizes to 500. Do it 500 at a time.
-            req_num, remainder = divmod(input, 500)
+            req_num, remainder = divmod(input_request, 500)
             req_num += 1
 
-            last_iter = True if (input == 1) else False
-            if input > 500:
+            last_iter = True if (input_request == 1) else False
+            if input_request > 500:
                 num_requested = 500
             else:
                 num_requested = remainder
@@ -136,13 +137,13 @@ class WikipediaTraverser:
                 random_page_list = [page['title'] for page in result['query']['random']]
                 for i in range(num_requested):
                     print("Processing: {}".format(trans(unidecode(random_page_list[i]))))
-                    self.traverser(trans(unidecode(random_page_list[i])))
+                    self._traverser(trans(unidecode(random_page_list[i])))
                     try:
                         ancestors = len(nx.ancestors(self.graph, 'Philosophy'))
                         total = len(self.network) - 1
-                        self.leadstophil.append((ancestors, total))
+                        self.leads_to_phil.append((ancestors, total))
                     except:
-                        self.leadstophil.append((0, len(self.network) - 1))
+                        self.leads_to_phil.append((0, len(self.network) - 1))
 
                 tally += num_requested
                 print("Processed {} articles".format(tally))
@@ -153,9 +154,9 @@ class WikipediaTraverser:
                 if req == (req_num - 2):
                     last_iter = True
 
-            print("Finished processing {} random articles".format(input))
+            print("Finished processing {} random articles".format(input_request))
 
-    def traverser(self, article):
+    def _traverser(self, article):
         """
         Better practice to call the runner, but can call this to run an individual article.
         """
@@ -178,7 +179,7 @@ class WikipediaTraverser:
                          '/wiki/Template_talk',
                          '/wiki/Portal:']
 
-        pageprops = ['disambiguation', 'name list', 'list of']
+        page_props = ['disambiguation', 'name list', 'list of']
 
         while True:
             # CASE: Already visited here on previous traversal
@@ -227,13 +228,13 @@ class WikipediaTraverser:
                 return
 
             # Finding first links
-            # Check if disambiguation or name list page
+            # Check to see if the page is a disambiguation or name list
             params = {'action': 'query', 'format': 'json', 'titles': article, 'prop': 'pageprops'}
             result = requests.get(self.BASE_URL, params=params, headers=self.HEADERS)
 
             first_link = None
             found = False
-            if any(prop in (result.text).lower() for prop in pageprops):
+            if any(prop in result.text.lower() for prop in page_props):
                 # If so, parse for links.
                 params = {'action': 'parse', 'page': article, 'prop': 'text',
                           'format': 'json', 'redirects': 1}
@@ -250,8 +251,8 @@ class WikipediaTraverser:
                     element.drop_tree()
 
                 # For each list item (li) in the article:
-                for listitem in html.iter('li'):
-                    for link in listitem.iter('a'):
+                for list_item in html.iter('li'):
+                    for link in list_item.iter('a'):
                         link.tail = None
                         # Conditionals to weed out bad links.
                         if 'href' not in link.attrib:
@@ -288,6 +289,7 @@ class WikipediaTraverser:
                 result = requests.get(self.BASE_URL, params=params,
                                       headers=self.HEADERS).json()
 
+                # If failed to retrieve page, save results and exit.
                 if 'error' in result:
                     print("Dead link {} from parent or error retrieving article.".format(article))
                     self.network[article] = {'distance': 0,
@@ -355,8 +357,8 @@ class WikipediaTraverser:
 
                 if found is False:
                     # For each list item (li) in the article:
-                    for listitem in html.iter('li'):
-                        for link in listitem.iter('a'):
+                    for list_item in html.iter('li'):
+                        for link in list_item.iter('a'):
                             link.tail = None
                             # Conditionals to weed out bad links.
                             if 'href' not in link.attrib:
@@ -445,7 +447,7 @@ class WikipediaTraverser:
         return {'article': greatest_article, 'distance': greatest_distance}
 
 
-def strip_parentheses(string):
+def _strip_parentheses(string):
     """
     Remove content in parentheses from a string, leaving
     parentheses between <tags> in place
