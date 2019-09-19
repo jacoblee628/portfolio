@@ -6,7 +6,7 @@ I'm an aspiring Machine Learning engineer/data scientist. Looking for Summer 202
 
 [LinkedIn](https://www.linkedin.com/in/jacob-lee-402644b4/)
 
-## Projects
+## Highlighted Projects
 
 1. Sentiment Analysis on Ford Reviews
    - Created several models that predict the sentiment (positive or negative) of Ford vehicle reviews. 
