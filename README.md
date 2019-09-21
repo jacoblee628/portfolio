@@ -1,6 +1,6 @@
 # Portfolio
 
-My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon University, studying Information Systems.
+My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon University, studying Information Systems Management.
 
 I'm an aspiring Machine Learning engineer/data scientist. Looking for Summer 2020 internship opportunities.
 
