@@ -4,7 +4,7 @@ My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon Un
 
 I'm an aspiring Machine Learning engineer/data scientist. Looking for Summer 2020 internship opportunities.
 
-[LinkedIn](https://www.linkedin.com/in/jacob-lee-402644b4/)
+[LinkedIn](https://www.linkedin.com/in/jacoblee628/)
 
 ## Highlighted Projects
 
