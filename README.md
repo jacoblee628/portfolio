@@ -31,6 +31,7 @@ My solution to a question I received in the [Google Foo Bar Challenge](https://w
 
 <img src="google_coding_challenge/maze_example.png" align="center" height="200">
 
+-------
 
 ### Top N Netflix Movies
 Returns the top N movies from [Netflix](https://www.kaggle.com/netflix-inc/netflix-prize-data/data) based on the sum of movie review scores.
