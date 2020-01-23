@@ -21,12 +21,12 @@ Output: 8 (after breaking a wall)
 ```
 
 ## My Solution
-I first implemented the [A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) as a general pathfinder. It's a good search algorithm that's likely to be faster.
+I first implemented a simple Breadth-First Search (BFS) algorithm as a general pathfinder. That's the "find_distances()" function in the Maze class.
 
-1. Starting from the entrance, A* search your way to the exit.
+1. Starting from the entrance, BFS your way to the exit.
     * For each open space you encounter, keep track of its distance from the entrance.
     * For now, we'll call this **Search "X"**
-2. Starting from the exit, A* search your way to the entrance.
+2. Starting from the exit, BFS your way to the entrance.
     * Again, keeping track of the distances (separate from X)
     * Call this **Search "Y"**
 
