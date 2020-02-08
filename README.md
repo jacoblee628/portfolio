@@ -10,6 +10,8 @@ LinkedIn: https://www.linkedin.com/in/jacoblee628/
 
 ## Highlighted Projects
 
+<b>See the <i>machine_learning</i> folder for ML projects</b>
+
 ### Wikipedia First Link Crawler
 <img src="https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png" align="center" height="300">  
 
