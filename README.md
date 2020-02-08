@@ -24,14 +24,14 @@ Please see this [Medium Article](https://medium.com/@jacoblee628/all-roads-lead-
 Visualized clusters of 9 million deaths in the video game *Player Unknown's Battlegrounds*.  
 Final project for my undergrad Cloud Computing for Machine Learning course. Ranked #3 of 50 projects in the course.
 
-<img src="kmeans_pubg/k_30_visualization.png" align="center" height="250">
+<img src="machine_learning/kmeans_pubg/k_30_visualization.png" align="center" height="250">
 
 -------
 
 ### Google Coding Challenge (Maze Solver)
 My solution to a question I received in the [Google Foo Bar Challenge](https://www.geeksforgeeks.org/google-foo-bar-challenge/)
 
-<img src="google_challenge/maze_example.png" align="center" height="200">
+<img src="mini_projects/google_challenge/maze_example.png" align="center" height="200">
 
 -------
 
