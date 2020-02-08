@@ -28,14 +28,14 @@ Final project for my undergrad Cloud Computing for Machine Learning course. Rank
 
 -------
 
-### Google Coding Challenge (Maze Solver)
-My solution to a question I received in the [Google Foo Bar Challenge](https://www.geeksforgeeks.org/google-foo-bar-challenge/)
-
-<img src="mini_projects/google_challenge/maze_example.png" align="center" height="200">
-
--------
-
 ### Subreddit Webscraper Applet
 A website that scrapes a subreddit from [Reddit.com](https://reddit.com) and gathers some stats and top posts.
 
 <img src="webscraping_applet/applet_preview_1.png" align="center" width="400">
+
+-------
+
+### Google Coding Challenge (Maze Solver)
+My solution to a question I received in the [Google Foo Bar Challenge](https://www.geeksforgeeks.org/google-foo-bar-challenge/)
+
+<img src="mini_projects/google_challenge/maze_example.png" align="center" height="200">
