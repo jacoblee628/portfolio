@@ -35,7 +35,7 @@ My solution to a question I received in the [Google Foo Bar Challenge](https://w
 
 -------
 
-### Top N Netflix Movies
-Returns the top N movies from [Netflix](https://www.kaggle.com/netflix-inc/netflix-prize-data/data) based on the sum of movie review scores.
+### Subreddit Webscraper Applet
+A website that scrapes a subreddit from [Reddit.com](https://reddit.com) and gathers some stats and top posts.
 
-This is a proof of concept on a large dataset. This can more easily be done in Spark; we did this mostly to practice implementing MapReduce on a lower level, in Java :)
+<img src="webscraping_applet/applet_preview_1.png" align="center" width="400">
