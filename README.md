@@ -8,9 +8,21 @@ Looking for Summer 2020 internship opportunities, particularly as a machine lear
 Email: sglee@andrew.cmu.edu  
 LinkedIn: https://www.linkedin.com/in/jacoblee628/
 
-## Highlighted Projects
+## Project List
 
-<b>See the <i>machine_learning</i> folder for ML projects</b>
+1. **[Machine Learning Projects](machine_learning)**
+   * [Identifying Phonemes with Deep Learning (PyTorch, AWS)](machine_learning)
+   * [k-Means Clustering on PUBG Deaths (Spark, AWS)](machine_learning/kmeans_pubg)
+   * [Sentiment Analysis on Car Review Text (R)](machine_learning/r_sentiment_analysis)
+2. **[Data Visualization Projects](data_visualization)**
+   * [Wikipedia Network Visualization & Webscraper (BeautifulSoup, NetworkX, Gephi)](data_visualization/wikipedia_crawler)
+   * [Indeed Webscraper (BeautifulSoup, Jupyter Notebook)](data_visualization/indeed_webscraper)
+   * [Subreddit Webscraper (Java Applet, TomEE)](data_visualization/webscraping_applet)
+3. **[Mini Projects](mini_projects)**
+   * [Automated Maze Solver - Google Challenge (Python)](mini_projects/google_challenge)
+   * [Monte Carlo Pi Approximation (MATLAB)](mini_projects/monte_carlo_pi_approximation)
+
+## Highlighted Projects
 
 ### Wikipedia First Link Crawler
 <img src="https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png" align="center" height="300">  
@@ -31,7 +43,7 @@ Final project for my undergrad Cloud Computing for Machine Learning course. Rank
 ### Subreddit Webscraper Applet
 A website that scrapes a subreddit from [Reddit.com](https://reddit.com) and gathers some stats and top posts.
 
-<img src="webscraping_applet/applet_preview_1.png" align="center" width="400">
+<img src="data_visualization/webscraping_applet/applet_preview_1.png" align="center" width="400">
 
 -------
 
