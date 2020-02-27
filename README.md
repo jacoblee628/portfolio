@@ -10,8 +10,10 @@ LinkedIn: https://www.linkedin.com/in/jacoblee628/
 
 ## Project List
 
+<b>[Click here for implementations of ML algorithms from scratch](machine_learning/implementations).</b>
+
 1. **[Machine Learning Projects](machine_learning)**
-   * [Identifying Phonemes with Deep Learning (PyTorch, AWS)](machine_learning)
+   * [Identifying Phonemes with Deep Learning (PyTorch, AWS)](machine_learning/phoneme_prediction)
    * [k-Means Clustering on PUBG Deaths (Spark, AWS)](machine_learning/kmeans_pubg)
    * [Sentiment Analysis on Car Review Text (R)](machine_learning/r_sentiment_analysis)
 2. **[Data Visualization Projects](data_visualization)**
@@ -24,7 +26,15 @@ LinkedIn: https://www.linkedin.com/in/jacoblee628/
 
 ## Highlighted Projects
 
-### Wikipedia First Link Crawler
+### [Deep Learning for Detecting Phonemes](phoneme_prediction)
+
+This project uses a neural network to identify [phonemes](https://en.wikipedia.org/wiki/Phoneme) from samples of speech. Developed in PyTorch and trained on Amazon Web Services EC2 GPU Clusters.
+
+<img src=https://miro.medium.com/max/1182/1*OOTqBsjpuXyfYJVdPxWtBA.png>
+
+-------
+
+### [Wikipedia First Link Crawler](data_visualization/wikipedia_crawler)
 <img src="https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png" align="center" height="300">  
 
 My implementation and illustration of the [Wikipedia Philosophy phenomenon](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy).  
@@ -32,7 +42,7 @@ Please see this [Medium Article](https://medium.com/@jacoblee628/all-roads-lead-
 
 -------
 
-### *k*-Means Clustering Visualization of PUBG Deaths
+### [*k*-Means Clustering Visualization of PUBG Deaths](machine_learning/kmeans_pubg)
 Visualized clusters of 9 million deaths in the video game *Player Unknown's Battlegrounds*.  
 Final project for my undergrad Cloud Computing for Machine Learning course. Ranked #3 of 50 projects in the course.
 
@@ -40,14 +50,14 @@ Final project for my undergrad Cloud Computing for Machine Learning course. Rank
 
 -------
 
-### Subreddit Webscraper Applet
+### [Subreddit Webscraper Applet](data_visualization/webscraping_applet)
 A website that scrapes a subreddit from [Reddit.com](https://reddit.com) and gathers some stats and top posts.
 
 <img src="data_visualization/webscraping_applet/applet_preview_1.png" align="center" width="400">
 
 -------
 
-### Google Coding Challenge (Maze Solver)
+### [Google Coding Challenge (Maze Solver)](mini_projects/google_challenge)
 My solution to a question I received in the [Google Foo Bar Challenge](https://www.geeksforgeeks.org/google-foo-bar-challenge/)
 
 <img src="mini_projects/google_challenge/maze_example.png" align="center" height="200">
