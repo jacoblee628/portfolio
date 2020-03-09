@@ -37,7 +37,7 @@ This project uses a neural network to identify [phonemes](https://en.wikipedia.o
 ### [Wikipedia First Link Crawler](data_visualization/wikipedia_crawler)
 <img src="https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png" align="center" height="300">  
 
-My implementation and illustration of the [Wikipedia Philosophy phenomenon](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy).  
+Webscraping and visualizing the link-relationships between Wikipedia articles, essentially the [Wikipedia Philosophy phenomenon](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy).
 Please see this [Medium Article](https://medium.com/@jacoblee628/all-roads-lead-to-philosophy-on-wikipedia-35d647b232b2) for a detailed writeup. 
 
 -------
