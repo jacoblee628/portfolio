@@ -2,7 +2,7 @@
 
 My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon University, graduating in Dec 2020.
 
-Looking for Summer 2020 internship opportunities, particularly as a machine learning engineer or data scientist.
+Incoming Data Mining intern at Bosch for summer 2020
 
 ## Contact
 Email: sglee@andrew.cmu.edu  
