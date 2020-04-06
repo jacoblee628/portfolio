@@ -13,7 +13,6 @@ LinkedIn: https://www.linkedin.com/in/jacoblee628/
 <b>[Click here for implementations of ML algorithms from scratch](machine_learning/implementations).</b>
 
 1. **[Machine Learning Projects](machine_learning)**
-   * [Identifying Phonemes with Deep Learning (PyTorch, AWS)](machine_learning/phoneme_prediction)
    * [k-Means Clustering on PUBG Deaths (Spark, AWS)](machine_learning/kmeans_pubg)
    * [Sentiment Analysis on Car Review Text (R)](machine_learning/r_sentiment_analysis)
 2. **[Data Visualization Projects](data_visualization)**
