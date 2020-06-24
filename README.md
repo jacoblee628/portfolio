@@ -2,7 +2,7 @@
 
 My name's **Jacob Lee**. I am a current Master's candidate at Carnegie Mellon University, graduating in Dec 2020.
 
-Incoming Data Mining intern at Bosch for summer 2020
+Incoming Data Mining Intern at Bosch USA for Summer 2020.
 
 ## Contact
 Email: sglee@andrew.cmu.edu  
@@ -12,18 +12,32 @@ LinkedIn: https://www.linkedin.com/in/jacoblee628/
 
 <b>[Click here for implementations of ML algorithms from scratch](machine_learning/implementations).</b>
 
-1. **[Machine Learning Projects](machine_learning)**
+### [Machine Learning Projects](machine_learning)
+   * [Facial Recognition with MobileNetV2 (PyTorch)](machine_learning/mobilenetv2)
+   * [Identifying Phonemes with MLPs (PyTorch)](machine_learning/phoneme_prediction)
+
+
+### []
+
+### [Mini Projects](mini_projects)
    * [k-Means Clustering on PUBG Deaths (Spark, AWS)](machine_learning/kmeans_pubg)
-   * [Sentiment Analysis on Car Review Text (R)](machine_learning/r_sentiment_analysis)
-2. **[Data Visualization Projects](data_visualization)**
    * [Wikipedia Network Visualization & Webscraper (BeautifulSoup, NetworkX, Gephi)](data_visualization/wikipedia_crawler)
-   * [Indeed Webscraper (BeautifulSoup, Jupyter Notebook)](data_visualization/indeed_webscraper)
+   * [Google Challenge - Automated Maze Solver (Python)](mini_projects/google_challenge)
+   * [Sentiment Analysis on Car Review Text (R)](machine_learning/r_sentiment_analysis)
+   * [Indeed Webscraper (BeautifulSoup)](data_visualization/indeed_webscraper)
    * [Subreddit Webscraper (Java Applet, TomEE)](data_visualization/webscraping_applet)
-3. **[Mini Projects](mini_projects)**
-   * [Automated Maze Solver - Google Challenge (Python)](mini_projects/google_challenge)
    * [Monte Carlo Pi Approximation (MATLAB)](mini_projects/monte_carlo_pi_approximation)
 
 ## Highlighted Projects
+
+### [Deep Learning for Detecting Phonemes](phoneme_prediction)
+
+This project uses a neural network to identify [phonemes](https://en.wikipedia.org/wiki/Phoneme) from samples of speech. Developed in PyTorch and trained on Amazon Web Services EC2 GPU Clusters.
+
+<img src=https://miro.medium.com/max/1182/1*OOTqBsjpuXyfYJVdPxWtBA.png>
+
+-------
+
 
 ### [Wikipedia First Link Crawler](data_visualization/wikipedia_crawler)
 <img src="https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png" align="center" height="300">  

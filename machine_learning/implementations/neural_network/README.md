@@ -1,8 +1,14 @@
-# Neural Network From Scratch
+# Neural Network(s) From Scratch
 
-Implemented a [multilayer perceptron](https://en.wikipedia.org/wiki/Multilayer_perceptron) from scratch, using only NumPy and Python.
+Implemented the [multilayer perceptron](https://en.wikipedia.org/wiki/Multilayer_perceptron) from scratch in both *Python/Numpy* and *MATLAB*. Both implementations are object oriented (the Python one is neater).
 
-It's fully object-based and vectorized, so it's decently reusable and fast for a basic implementation.
+Features
+- Batchnorm Layers
+- Cross Entropy Loss
+- Kaiming initialization
+- K-Fold Cross Validation
+- Tanh, Sigmoid, ReLU activation functions
+- Momentum updates
 
 ## Contact
 Email: sglee@andrew.cmu.edu  
