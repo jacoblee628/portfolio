@@ -30,15 +30,6 @@ LinkedIn: https://www.linkedin.com/in/jacoblee628/
 
 ## Highlighted Projects
 
-### [Deep Learning for Detecting Phonemes](phoneme_prediction)
-
-This project uses a neural network to identify [phonemes](https://en.wikipedia.org/wiki/Phoneme) from samples of speech. Developed in PyTorch and trained on Amazon Web Services EC2 GPU Clusters.
-
-<img src=https://miro.medium.com/max/1182/1*OOTqBsjpuXyfYJVdPxWtBA.png>
-
--------
-
-
 ### [Wikipedia First Link Crawler](data_visualization/wikipedia_crawler)
 <img src="https://miro.medium.com/max/1024/1*CQLyujxlazvtekDXEPqyBA.png" align="center" height="300">  
 
