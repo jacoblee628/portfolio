@@ -12,12 +12,6 @@ LinkedIn: https://www.linkedin.com/in/jacoblee628/
 
 <b>[Click here for implementations of ML algorithms from scratch](machine_learning/implementations).</b>
 
-### [Machine Learning Projects](machine_learning)
-   * [Facial Recognition with MobileNetV2 (PyTorch)](machine_learning/mobilenetv2)
-   * [Identifying Phonemes with MLPs (PyTorch)](machine_learning/phoneme_prediction)
-
-
-### []
 
 ### [Mini Projects](mini_projects)
    * [k-Means Clustering on PUBG Deaths (Spark, AWS)](machine_learning/kmeans_pubg)
